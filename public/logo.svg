@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120">
+  <!-- Transparent background is default for SVG -->
+  
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="whiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DDDDDD"/>
+    </linearGradient>
+    
+    <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"/>
+      <stop offset="100%" stop-color="#0072FF"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo text - properly sized and positioned -->
+  <text x="20" y="75" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="url(#whiteGradient)">CareerMentor</text>
+  <text x="290" y="75" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="url(#aiGradient)">AI</text>
+  
+  <!-- Graduation cap above text - proportionally sized -->
+  <path d="M100 30 L140 20 L180 30 L140 40 Z" fill="url(#whiteGradient)"/>
+  <path d="M140 40 L140 50" stroke="url(#whiteGradient)" stroke-width="2.5"/>
+  <path d="M122 35 L122 45 C122 48, 140 52, 158 45 L158 35" fill="none" stroke="url(#whiteGradient)" stroke-width="1.5"/>
+</svg>
